@@ -1,0 +1,942 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,900;1,100&display=swap');
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: relative;
+    width: 1440px;
+    height: 3824px;
+}
+
+
+/*imagem principal*/
+
+.top-cover {
+    width: 100%;
+}
+
+
+/* LOGO DA MARCA*/
+
+.logo {
+    /*posição*/
+    position: absolute;
+    width: 145px;
+    height: 32px;
+    left: 200px;
+    top: 14px;
+    /*fontes e ajusta da letras*/
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    text-align: center;
+}
+
+
+/*menu principal      #1# */
+
+.menu-principal a {
+    /*posições*/
+    position: relative;
+    bottom: 750px;
+    left: 400px;
+    /*espaçamento*/
+    margin-left: 20px;
+    display: inline;
+    text-decoration: none;
+    /*fontes*/
+    font-family: 'montserrat';
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+
+
+/*LOGIN Become a Member*/
+
+.sub-menu a {
+    /*espaçamento*/
+    margin-left: 20px;
+    display: inline;
+    text-decoration: none;
+    /*posições*/
+    position: relative;
+    bottom: 774px;
+    left: 950px;
+    /*fontes e ajustes das letras*/
+    font-family: 'montserrat';
+    color: white;
+}
+
+.button-1 {
+    /*bordas*/
+    position: relative;
+    width: 214px;
+    height: 52px;
+    border: 20px;
+    padding: 20px 43px;
+    border-radius: 5px;
+    background-color: #23A6F0;
+    text-align: center;
+}
+
+#seta {
+    position: relative;
+    color: white;
+    left: 16px;
+}
+
+
+/*texto principal*/
+
+.text-principal {
+    /*posições*/
+    position: absolute;
+    top: 200px;
+    right: 1px;
+    left: 400px;
+}
+
+.text-principal h1 {
+    /*fontes e tamanho da letra*/
+    font-family: 'montserrat';
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 80px;
+    margin: 5px 4px;
+    text-align: center;
+    /*ajuste das posições*/
+    position: relative;
+    right: 200px;
+    top: 15px;
+}
+
+.text-principal h4 {
+    /*Ajuste das letras*/
+    font-family: 'montserrat';
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    /*posições*/
+    position: relative;
+    right: 189px;
+    top: 29px;
+    margin: 30px 0px;
+    text-align: center;
+}
+
+
+/* Botões */
+
+.button-g {
+    /*ajuste da borda*/
+    border: none;
+    border-radius: 37px;
+    padding: 17px 36px;
+    background: #23A6F0;
+    /*ajuste letra*/
+    color: white;
+    font-family: 'montserrat';
+    /*posição do botão*/
+    position: relative;
+    left: 160px;
+    top: 23px;
+}
+
+.button-l {
+    /*borda e cor da borda*/
+    border: solid;
+    border-radius: 37px;
+    padding: 10px 30px;
+    background: transparent;
+    color: white;
+    /*ajustes da letra*/
+    font-family: 'montserrat';
+    border-color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /*posições*/
+    position: relative;
+    left: 170px;
+    top: 20px;
+}
+
+
+/* PARTE DA SATISFAÇÃO*/
+
+.row-col-4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+}
+
+.col-md-41 {
+    /*ajuste da borda e do box*/
+    background: white;
+    padding: 30px 40px;
+    /*ajuste da posição*/
+    position: relative;
+    width: 328px;
+    height: 160px;
+    right: 220px;
+    top: 175px;
+    box-shadow: 0px 30px 19px rgba(0, 0, 0, 0.07);
+    margin-left: 32px;
+}
+
+.col-md-41 h3 {
+    font-family: 'montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 12px;
+    color: #252B42;
+}
+
+.col-md-41 p {
+    font-family: 'montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    font-style: normal;
+    color: #252B42;
+}
+
+.col-md-42 {
+    /*ajuste das bordas e do box*/
+    padding: 30px 40px;
+    background: #23A6F0;
+    position: relative;
+    width: 328px;
+    height: 160px;
+    right: 220px;
+    top: 175px;
+    /*ajuste da sombra*/
+    box-shadow: 0px 30px 19px rgba(0, 0, 0, 0.07);
+    margin: 1px 0px;
+    margin-left: 32px;
+}
+
+.col-md-42 h3 {
+    font-family: 'montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 12px;
+    color: white;
+}
+
+.col-md-42 p {
+    font-family: 'montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    font-style: normal;
+    color: white;
+}
+
+
+/* SEGUNDA PARTE DO PROJETO #2#   */
+
+.container-3 {
+    text-align: center;
+    position: relative;
+    top: 400px;
+    left: 500px;
+    padding: 0px;
+}
+
+.container-3 h2 {
+    /*ajuste das letras e formatos*/
+    color: #252B42;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 510;
+    font-size: 40px;
+    line-height: 57px;
+    /*posições da letras*/
+    position: relative;
+    bottom: 120px;
+}
+
+.container-3 p {
+    color: #252B42;
+    /*posições da letras*/
+    position: relative;
+    bottom: 120px;
+    /*ajuste das letras e formatos*/
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.row-pre {
+    display: flex;
+    position: relative;
+    bottom: 0px;
+    top: 700px;
+}
+
+
+/*Os planos que podem ser adquiridos*/
+
+.col-md-4 {
+    position: relative;
+    bottom: 280px;
+    right: 250px;
+}
+
+.col-md-4 h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 20px;
+}
+
+.col-md-4 h5 {
+    /*Ajustes das letras*/
+    color: #737373;
+    text-align: center;
+    letter-spacing: 0.1px;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 24px;
+    /*posição da caixa*/
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 35px 0px;
+}
+
+
+/*FREE E PREMIUM*/
+
+.pricing-style-1 {
+    /*ajustes da borda*/
+    background: #FFFFFF;
+    border: 1px solid #23A6F0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    /*ajuste da posição*/
+    position: relative;
+    padding: 22px 50px;
+    width: 327px;
+    height: 655px;
+    left: 500px;
+    /*ajuste do texto*/
+    text-align: center;
+    color: #252B42;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+}
+
+.pricing-style-1 h2 {
+    /*ajuste das letras*/
+    color: #23A6F0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 24px;
+    position: relative;
+    right: 20px;
+}
+
+
+/*Os Planos que podem ser adquiridos  o Standard*/
+
+
+/*STANDARD*/
+
+.pricing-style-2 {
+    background: #252B42;
+    border: 1px solid #23A6F0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    /*ajuste do tamanho do quadrado*/
+    position: relative;
+    padding: 20px 50px;
+    width: 327px;
+    height: 734px;
+    left: 500px;
+    bottom: 80px;
+    /*ajuste do texto*/
+    text-align: center;
+    color: white;
+}
+
+
+/*STANDARD*/
+
+.pricing-style-2 h2 {
+    /*posição do texto*/
+    position: relative;
+    right: 40px;
+    top: 19px;
+    /*ajuste do texto e fontes*/
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    color: #23A6F0;
+    font-size: 40px;
+}
+
+
+/*STANDARD*/
+
+.pricing-style-2 h5 {
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+/* VALORES dos planos*/
+
+.per-month {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.per-month h3 {
+    /*ajuste das letras*/
+    color: #23A6F0;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    line-height: 24px;
+    position: relative;
+    bottom: 80px;
+    left: 10px;
+}
+
+.per-month h5 {
+    /*ajuste das letras*/
+    color: #8EC2F2;
+    /*posição da palavra*/
+    position: relative;
+    bottom: 132px;
+    left: 43px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 14px;
+}
+
+.per-month-1 h3 {
+    /*ajuste das letras*/
+    color: #23A6F0;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    line-height: 24px;
+    position: relative;
+    bottom: 70px;
+    left: 40px;
+}
+
+.per-month-1 h5 {
+    /*ajuste das letras*/
+    color: #8EC2F2;
+    /*posição da palavra*/
+    position: relative;
+    bottom: 109px;
+    left: 75px;
+    /*ajuste do texto*/
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 14px;
+}
+
+
+/*PLANOS  Unlimited*/
+
+.check {
+    background-color: #2DC071;
+    border-radius: 200px;
+    /*ajuste de posição e tamanhos do fundo*/
+    position: relative;
+    width: 10px;
+    height: 10px;
+    bottom: 80px;
+    right: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 6px;
+    left: 2px;
+}
+
+
+/*ajuste do confimado cinza*/
+
+.check-d {
+    background-color: #BDBDBD;
+    border-radius: 200px;
+    /*ajuste de posição e tamanhos do fundo*/
+    position: relative;
+    width: 10px;
+    height: 10px;
+    bottom: 80px;
+    right: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 6px;
+    left: 2px;
+}
+
+
+/*texto das opções que vem no seu plano*/
+
+.features-list h6 {
+    position: relative;
+    bottom: 100px;
+    left: 20px;
+    /*ajuste das letras*/
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    /*ajuste do espaçamento*/
+    flex: none;
+    order: 1;
+    margin: 0px 17px;
+}
+
+.button-try {
+    padding: 15px 40px;
+    border-radius: 5px;
+    background-color: #23A6F0;
+    color: white;
+    border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    position: relative;
+    width: 245px;
+    height: 52px;
+    bottom: 30px;
+}
+
+.button-try-1 {
+    padding: 15px 40px;
+    border-radius: 5px;
+    background-color: #23A6F0;
+    color: white;
+    border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    position: relative;
+    width: 245px;
+    height: 52px;
+    bottom: 58px;
+}
+
+
+/* TERCEIRA PARTE DO PROJETO #3# */
+
+.container-4 {
+    position: absolute;
+    width: 1440px;
+    height: 807px;
+    left: 30px;
+    bottom: 810px;
+    background: #252B42;
+}
+
+
+/*Mapa Mundo*/
+
+.col-md-5 {
+    position: absolute;
+    width: 414.5px;
+    height: 169.1px;
+    left: 52%;
+    top: 110px;
+}
+
+.col-md-7 {
+    position: absolute;
+    width: 414.5px;
+    height: 169.1px;
+    left: 20px;
+    top: 50px;
+    /*Ajuste da fonte e das letras*/
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 40px;
+    left: 100px;
+}
+
+.col-md-7 p {
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    font-size: 14px;
+    margin: 15px 0px;
+    width: 456px;
+    height: 100px;
+    left: 0px;
+}
+
+
+/*Box de Pergunta*/
+
+.card-item {
+    /*caixa de perguntas*/
+    position: relative;
+    background: white;
+    width: 877px;
+    height: 610px;
+    top: 0px;
+    left: 240px;
+    top: 470px;
+}
+
+.card-content {
+    position: relative;
+    left: 350px;
+    top: 80px;
+    color: #252B42;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.box-pergun h3 {
+    position: relative;
+    top: 70px;
+    left: 455px;
+    /*fontes e ajuste da letras*/
+    font-size: 24px;
+    line-height: 32px;
+    color: #252B42;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.box-pergun p {
+    position: relative;
+    right: 20px;
+}
+
+.box-1 {
+    position: relative;
+    width: 507px;
+    height: 50px;
+    right: 20px;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.f-famy {
+    position: relative;
+    width: 267px;
+    height: 650px;
+    left: 0px;
+    bottom: 505px;
+}
+
+.button-b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 19px 40px;
+    background: #23A6F0;
+    border-radius: 5px;
+    position: relative;
+    width: 510px;
+    height: 62px;
+    top: 518px;
+    left: 330px;
+    top: 130px;
+    border: none;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.2px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+
+/*PARTE QUARDA DO PRIMEIRO RODA PÉ*/
+
+.box-1 {
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+    background: #FAFAFA;
+}
+
+.container-r1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 0px;
+    position: absolute;
+    width: 1050px;
+    height: 142px;
+    left: calc(50% - 1050px/2);
+    top: 0px;
+}
+
+.row-cod {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    width: 1050px;
+    height: 62px;
+    left: calc(50% - 1050px/2);
+    top: 40px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.col-md-3 button {
+    position: relative;
+    top: 3600px;
+    left: 800px;
+    background: #23A6F0;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    width: 160px;
+    height: 52px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.col-md-6 {
+    position: relative;
+    right: 167px;
+    top: 3600px;
+    color: #252B42;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+}
+
+.col-md-6 p {
+    font-size: 14px;
+}
+
+
+/*PARTE 5 DO RODA PÉ*/
+
+.box-name h5 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #252B42;
+    position: relative;
+    top: 3800px;
+}
+
+.box-name p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    color: #737373;
+    position: relative;
+    top: 3800px;
+    letter-spacing: 0.2px;
+}
+
+.box-name-1 h5 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    color: #252B42;
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
+    top: 3600px;
+    left: 200px;
+    letter-spacing: 0.2px;
+}
+
+.box-name-1 p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    color: #737373;
+    position: relative;
+    top: 3599px;
+    left: 200px;
+}
+
+
+/*BOX 2*/
+
+.box-name-2 h5 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #252B42;
+    position: relative;
+    top: 3400px;
+    left: 400px;
+}
+
+.box-name-2 p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    color: #737373;
+    position: relative;
+    top: 3399px;
+    left: 400px;
+    letter-spacing: 0.2px;
+}
+
+.box-name-3 h5 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #252B42;
+    position: relative;
+    top: 3196px;
+    left: 600px;
+}
+
+.box-name-3 p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    color: #737373;
+    position: relative;
+    top: 3200px;
+    left: 600px;
+    letter-spacing: 0.2px;
+}
+
+.box-name-4 h5 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #252B42;
+    position: relative;
+    top: 3000px;
+    left: 800px;
+}
+
+.box-name-4 p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #737373;
+    position: relative;
+    top: 3000px;
+    left: 800px;
+}
+
+i {
+    position: relative;
+    color: #23A6F0;
+    right: 10px;
+}
+
+
+/*Roda PE*/
+
+.rod-p {
+    width: 1440px;
+    height: 74px;
+    left: calc(50% - 1440px/2);
+    top: 3750px;
+    background: #FAFAFA;
+}
+
+.container-rods {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px 0px;
+    position: absolute;
+    width: 1050px;
+    height: 74px;
+    left: calc(50% - 1050px/2);
+    top: 0px;
+}
+
+.row-rods {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 1049px;
+    height: 24px;
+    left: calc(50% - 1049px/2 - 0.5px);
+    top: 25px;
+}
+
+.col-mod-6 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    position: relative;
+    top: 4160px;
+}
+
+.col-mod-7 {
+    position: relative;
+    top: 4160;
+    left: 600px;
+    margin: 0px 0px;
+    padding: 0px;
+}
